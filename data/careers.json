@@ -1,0 +1,107 @@
+[
+    {
+        "title": "Software Developer",
+        "category": "Technology",
+        "education_required": "Bachelor's",
+        "skills": ["Python", "Programming", "Problem Solving"],
+        "interests": ["Technology", "Coding", "AI"]
+    },
+    {
+        "title": "Data Scientist",
+        "category": "Technology",
+        "education_required": "Bachelor's",
+        "skills": ["Python", "Statistics", "Machine Learning"],
+        "interests": ["AI", "Data", "Technology"]
+    },
+    {
+        "title": "Cyber Security Analyst",
+        "category": "Technology",
+        "education_required": "Bachelor's",
+        "skills": ["Networking", "Python", "Security"],
+        "interests": ["Technology", "Cyber Security"]
+    },
+    {
+        "title": "Graphic Designer",
+        "category": "Creative",
+        "education_required": "Bachelor's",
+        "skills": ["Illustrator", "Photoshop", "Creativity"],
+        "interests": ["Design", "Creativity", "Art"]
+    },
+    {
+        "title": "UI/UX Designer",
+        "category": "Creative",
+        "education_required": "Bachelor's",
+        "skills": ["Figma", "Illustrator", "Creativity"],
+        "interests": ["Design", "Technology"]
+    },
+    {
+        "title": "Digital Marketing Specialist",
+        "category": "Business",
+        "education_required": "Bachelor's",
+        "skills": ["SEO", "Communication", "Marketing"],
+        "interests": ["Business", "Marketing"]
+    },
+    {
+        "title": "Business Analyst",
+        "category": "Business",
+        "education_required": "Bachelor's",
+        "skills": ["Excel", "Analysis", "Communication"],
+        "interests": ["Business", "Technology"]
+    },
+    {
+        "title": "Chartered Accountant",
+        "category": "Business",
+        "education_required": "Bachelor's",
+        "skills": ["Accounting", "Finance", "Excel"],
+        "interests": ["Finance", "Business"]
+    },
+    {
+        "title": "Doctor",
+        "category": "Medical",
+        "education_required": "Bachelor's",
+        "skills": ["Biology", "Patient Care"],
+        "interests": ["Healthcare", "Medicine"]
+    },
+    {
+        "title": "Pharmacist",
+        "category": "Medical",
+        "education_required": "Bachelor's",
+        "skills": ["Chemistry", "Medicine"],
+        "interests": ["Healthcare", "Medicine"]
+    },
+    {
+        "title": "Civil Engineer",
+        "category": "Engineering",
+        "education_required": "Bachelor's",
+        "skills": ["Mathematics", "Construction"],
+        "interests": ["Construction", "Engineering"]
+    },
+    {
+        "title": "Mechanical Engineer",
+        "category": "Engineering",
+        "education_required": "Bachelor's",
+        "skills": ["Mechanics", "Mathematics"],
+        "interests": ["Engineering", "Machines"]
+    },
+    {
+        "title": "Electrical Engineer",
+        "category": "Engineering",
+        "education_required": "Bachelor's",
+        "skills": ["Electronics", "Physics"],
+        "interests": ["Engineering", "Technology"]
+    },
+    {
+        "title": "Architect",
+        "category": "Engineering",
+        "education_required": "Bachelor's",
+        "skills": ["Design", "Creativity"],
+        "interests": ["Construction", "Design"]
+    },
+    {
+        "title": "Animator",
+        "category": "Creative",
+        "education_required": "Bachelor's",
+        "skills": ["Animation", "Illustrator"],
+        "interests": ["Creativity", "Art"]
+    }
+]
