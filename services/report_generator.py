@@ -1,5 +1,8 @@
-class ReportGenerator:
+# Save the updated user list.
 
+# Generates and exports recommendation reports.
+class ReportGenerator:
+# Save the updated user list.
     def generate(self, username, recommendations):
 
         with open("career_report.txt", "w") as file:

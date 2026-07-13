@@ -1,4 +1,13 @@
+# ==========================================================
+# Recommendation Engine
+#
+# Calculates the best career matches based on user skills,
+# interests, and personality traits.
+# ==========================================================
+
 import json
+
+# Loads careers and generates recommendations.
 
 from models.tech_career import TechCareer
 from models.business_career import BusinessCareer
@@ -8,12 +17,12 @@ from models.creative_career import CreativeCareer
 
 
 class RecommendationEngine:
-
+# Read career information from the JSON file.
     def load_careers(self):
 
         with open("data/careers.json", "r") as file:
             data = json.load(file)
-
+# Create career objects according to their category.
         careers = []
 
         for item in data:
@@ -68,7 +77,7 @@ class RecommendationEngine:
             careers.append(career)
 
         return careers
-
+# Calculate a compatibility score between user and career.
     def calculate_match(self, user, career, personality):
 
         score = 0
@@ -129,7 +138,7 @@ class RecommendationEngine:
             )
 
             results.append((career, score))
-
+# Sort careers from highest to lowest score.
         results.sort(key=lambda x: x[1], reverse=True)
-
+# Return the top five career recommendations.
         return results[:5]

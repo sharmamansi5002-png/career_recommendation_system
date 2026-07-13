@@ -1,4 +1,8 @@
+# User model representing a registered user.
+
+# Stores user profile information.
 class User:
+    # Initialize user details.
     def __init__(self, name, age, education, skills, interests):
         self.name = name
         self.age = age
